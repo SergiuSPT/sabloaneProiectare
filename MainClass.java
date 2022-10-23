@@ -13,7 +13,7 @@ public class MainClass {
         discoTitanic.print();
         */
         
-<<<<<<< HEAD
+
 		/*Book discoTitanic = new Book("Disco Titanic");
 =======
 		Book discoTitanic = new Book("Disco Titanic");
@@ -53,8 +53,7 @@ public class MainClass {
 		cap111.add(cap1111);
 		cap1111.add(new Image("Image subchapter 1.1.1.1"));
 		noapteBuna.print();
-=======
->>>>>>> c8623005e7ec7c04aae819c03c34f99b39b44647
+
         
 	}
 

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,13 +30,6 @@ public class Table implements Element {
 		return null;
 	}
 	
-=======
-
-public class Table implements Elements {
-	String name;
-	public Table(String name) {
-		this.name= name;
-		System.out.println("Table: "+ name);
-	};
->>>>>>> c8623005e7ec7c04aae819c03c34f99b39b44647
 }
+
+
