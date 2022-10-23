@@ -3,7 +3,11 @@ import java.util.List;
 
 public class Subchapter {
 	
+<<<<<<< HEAD
 	List<Element> elementsList = new ArrayList<>();
+=======
+	List<Elements> elementsList = new ArrayList<>();
+>>>>>>> c8623005e7ec7c04aae819c03c34f99b39b44647
 	String name;
 	public Subchapter(String name) {
 		this.name= name;

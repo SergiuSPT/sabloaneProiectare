@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,4 +30,13 @@ public class Image implements Element{
 		return null;
 	}
 	
+=======
+
+public class Image implements Elements{
+	String name;
+	public Image(String name) {
+		this.name= name;
+		System.out.println("Image with title: "+ name);
+	};
+>>>>>>> c8623005e7ec7c04aae819c03c34f99b39b44647
 }

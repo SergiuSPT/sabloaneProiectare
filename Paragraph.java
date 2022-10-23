@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,4 +30,13 @@ public class Paragraph implements Element{
 		return null;
 	}
 	
+=======
+
+public class Paragraph implements Elements{
+	String name;
+	public Paragraph(String name) {
+		this.name= name;
+		System.out.println("Paragraph: "+ name);
+	};
+>>>>>>> c8623005e7ec7c04aae819c03c34f99b39b44647
 }
