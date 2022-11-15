@@ -29,6 +29,11 @@ public class Table implements Element {
 		// TODO Auto-generated method stub
 		return null;
 	}
+	@Override
+	public void accept(Visitor visitor) {
+		visitor.visitTable(this);
+		
+	}
 	
 }
 

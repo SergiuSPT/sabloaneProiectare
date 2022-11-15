@@ -37,5 +37,13 @@ public class Section implements Element {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	@Override
+	public void accept(Visitor visitor) {
+		visitor.visitSection(this);
+		for(Element e : elementsList)
+			e.accept(visitor);
+		
+	}
 	
 }

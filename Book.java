@@ -28,7 +28,10 @@ public class Book extends Section {
 	
 	}
 	
-	
+	public void accept(Visitor visitor) {
+		visitor.visitBook(this);
+		
+	}
 	
 	 
 }

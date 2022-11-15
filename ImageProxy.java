@@ -30,5 +30,10 @@ public class ImageProxy implements Element {
 		// TODO Auto-generated method stub
 		return null;
 	}
+	@Override
+	public void accept(Visitor visitor) {
+		visitor.visitImageProxy(this);
+		
+	}
 
 }

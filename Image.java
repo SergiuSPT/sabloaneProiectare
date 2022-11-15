@@ -36,6 +36,11 @@ public class Image implements Element{
 		// TODO Auto-generated method stub
 		return null;
 	}
+	@Override
+	public void accept(Visitor visitor) {
+		visitor.visitImage(this);
+		
+	}
 	
 
 }
